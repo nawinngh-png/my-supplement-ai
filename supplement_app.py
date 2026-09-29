@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 
 # 페이지 기본 설정
-st.set_page_config(page_title="전 성분 영양제 AI 마스터 솔루션", page_icon="💊", layout="wide")
-
-st.title("💊 전 성분(65종+) 맞춤형 영양제 추천 & 스케줄러 AI")
+st.title("💊 영양제 추천 AI 마스터 솔루션(개인 맞춤형 영양제 추천 AI)")
 st.markdown("비타민, 미네랄, 아미노산, 항산화제, 기능성 추출물 등 **65종 전체 영양제 데이터베이스**를 기반으로 **신체 조건(BMI)**과 **16대 질환/건강 이력**에 맞는 최적의 조합과 섭취 시간표를 설계합니다.")
+
+st.set_page_config(page_title="전 성분 영양제 AI 마스터 솔루션", page_icon="💊", layout="wide")
 
 # ==========================================
 # 1. 65종 전체 영양제 마스터 데이터베이스
